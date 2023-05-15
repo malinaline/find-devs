@@ -1,20 +1,20 @@
 body {
   color: #404040;
   background: rgba(251, 251, 251, 0.574);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /**
  * Nav
  */
 
- .nav {
+.nav {
   background-color: rgba(245, 235, 223, 0.411);
   width: 200px;
   display: flex;
- }
+}
 
- ul {
+ul {
   list-style-type: none;
   width: 200px;
   padding-top: 10px;
@@ -44,7 +44,7 @@ li a:hover:not(.active) {
 }
 
 h1 {
-  font-size:x-large;
+  font-size: x-large;
   font-weight: 300;
 }
 
@@ -74,26 +74,20 @@ input {
   padding: 7px 28px;
   transition-duration: 0.4s;
   width: 200px;
-
 }
 
 .button:hover {
-  background-color: #5c7679c3; 
+  background-color: #5c7679c3;
   color: white;
 }
 
-
-
 .searchfield {
-
   display: flex;
   justify-content: flex-end;
-
 }
 
 .header {
   background-color: rgba(245, 235, 223, 0.411);
   padding: 20px;
   height: 100px;
-
 }
