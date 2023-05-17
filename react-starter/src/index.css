@@ -1,93 +1,39 @@
-body {
+* {
   color: #404040;
-  background: rgba(251, 251, 251, 0.574);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-/**
- * Nav
- */
-
 .nav {
-  background-color: rgba(245, 235, 223, 0.411);
-  width: 200px;
-  display: flex;
-}
-
-ul {
-  list-style-type: none;
-  width: 200px;
-  padding-top: 10px;
-}
-
-li a {
-  font-size: small;
-  display: block;
-  color: #000;
-  padding: 30px 20px;
+  background-color: rgb(245, 235, 223);
+  padding: 10px;
   text-decoration: none;
+  text-align: left;
 }
 
-li a:hover:not(.active) {
-  background: rgba(251, 251, 251, 0.574);
-  color: black;
+tr {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
 }
 
-.table {
-  background: rgba(251, 251, 251, 0.574);
-  margin-left: 230px;
-  padding-top: 25px;
-  padding-left: 5px;
-  width: 1000px;
-  position: absolute;
-  z-index: -99;
+th {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.link {
+  text-decoration: none;
+  color: #404040;
+  margin-inline: 5px;
 }
 
 h1 {
-  font-size: x-large;
+  text-align: left;
   font-weight: 300;
+  font-size: 40px;
 }
 
-input {
-  padding: 15px 30px;
-  border: none;
-  border: none;
-  color: white;
-  padding: 7px 35px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 10px 3px;
-  cursor: pointer;
-}
-
-.button {
-  background-color: #5c7679;
-  border: none;
-  color: white;
-  padding: 7px 100px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 14px;
-  margin: 0px 06px;
-  padding: 7px 28px;
-  transition-duration: 0.4s;
-  width: 200px;
-}
-
-.button:hover {
-  background-color: #5c7679c3;
-  color: white;
-}
-
-.searchfield {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.header {
-  background-color: rgba(245, 235, 223, 0.411);
-  padding: 20px;
-  height: 100px;
+td {
+  padding: 15px;
 }
